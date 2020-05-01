@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pressure"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/pressure"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/vvodDannyh2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textSize="22dp" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Davlenie1"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:text="@string/upPressure"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/davlenieText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Davlenie1"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Davlenie2"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:text="@string/dPressure"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/davlenieText2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Davlenie2"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Puls"
+            android:layout_width="60dp"
+            android:layout_marginLeft="85dp"
+            android:layout_height="30dp"
+            android:text="@string/Puls"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/pulsText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Puls"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Cardio"
+            android:layout_width="100dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="30dp"
+            android:text="@string/Cardio"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:layout_toRightOf="@id/Cardio"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="110dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="30dp"
+            android:text="@string/Date"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <EditText
+            android:id="@+id/DateText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Date"
+            android:ems="10"
+            android:inputType="date"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/saveBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/savebtn"/>
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/next"/>
+
+</LinearLayout>

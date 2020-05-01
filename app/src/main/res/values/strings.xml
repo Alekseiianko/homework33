@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HOMEWORK3</string>
+    <string name="up_name">Комплексная система мониторинга здоровья</string>
+    <string name="info">Введите данные</string>
+    <string name="name">ФИО:</string>
+    <string name="age">Возраст:</string>
+    <string name="savebtn">Сохранить</string>
+    <string name="pressurebtn">Давление</string>
+    <string name="lolbtn">Жизненные показатели</string>
+    <string name="pressure">Давление</string>
+    <string name="upPressure">Верхнее давление:</string>
+    <string name="dPressure">Нижнее давление:</string>
+    <string name="Puls">Пульс:</string>
+    <string name="Cardio">Тахикардия:</string>
+    <string name="Date">Дата замера:</string>
+    <string name="Home">Главная</string>
+    <string name="Lol">Жизненные показатели здоровья</string>
+    <string name="Shagi">Кол-во шагов:</string>
+    <string name="Ves">Вес:</string>
+    <string name="end">Выход</string>
+    <string name="next">Далее</string>
+    <string name="forSaveBtn">Данные сохранены</string>
+    <string name="vesIncorrect">Введено неверное значение</string>
+</resources>

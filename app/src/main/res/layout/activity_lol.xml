@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LolActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lol"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/Lol"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/vvodDannyh2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textSize="22dp" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Ves"
+            android:layout_width="50dp"
+            android:layout_marginLeft="95dp"
+            android:layout_height="30dp"
+            android:text="@string/Ves"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/VesNumber"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Ves"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        >
+
+        <TextView
+            android:id="@+id/Shagi"
+            android:layout_width="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp"
+            android:text="@string/Shagi"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/ShagiNumber"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/Shagi"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/saveBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/savebtn"/>
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/end"/>
+
+
+
+</LinearLayout>
